@@ -1,0 +1,50 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header h1 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    header h3 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    nav {
+        background-color: #D6AFDC;
+        height: 120px;
+        width: 100%;
+        align-items: center;
+    }
+    
+    ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    li {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    li a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        min-width: 100px;
+    }
+    
+    li a:hover {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        text-align: center;
+    }
